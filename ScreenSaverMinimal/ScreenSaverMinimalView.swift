@@ -1,3 +1,10 @@
+//
+//  ScreenSaverMinimalView.swift
+//  ScreenSaverMinimal
+//
+//  Created by Mirko Fetter on 28.10.16.
+//
+// Based on https://github.com/erikdoe/swift-circle
 
 
 import ScreenSaver
