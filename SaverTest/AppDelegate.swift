@@ -22,8 +22,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         screenSaverView.frame = (window.contentView?.bounds)!;
         window.contentView?.addSubview(screenSaverView);
         
-        NSApp.beginSheet(sheetController.window!, modalFor: window, modalDelegate: self, didEnd: nil, contextInfo: nil)
-        print("yeah")
+        NSApplication.shared().runModal(for: sheetController.window!)
         
     }
     
