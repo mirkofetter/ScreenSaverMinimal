@@ -11,7 +11,6 @@ import ScreenSaver
 
 class ScreenSaverMinimalView : ScreenSaverView {
     
-    var defaultsManager: DefaultsManager = DefaultsManager()
     lazy var sheetController: ConfigureSheetController = ConfigureSheetController()
    
     
@@ -24,18 +23,17 @@ class ScreenSaverMinimalView : ScreenSaverView {
     }
     
     
-    override func hasConfigureSheet() -> Bool {
+    override var hasConfigureSheet: Bool {
         return true
     }
     
-    override func configureSheet() -> NSWindow? {
+    override var configureSheet: NSWindow? {
         return sheetController.window
     }
 
     
     override func startAnimation() {
         super.startAnimation()
-      
     }
     
     override func stopAnimation() {
@@ -45,19 +43,15 @@ class ScreenSaverMinimalView : ScreenSaverView {
 
     override func draw(_ rect: NSRect) {
         let bPath:NSBezierPath = NSBezierPath(rect: bounds)
-        defaultsManager.canvasColor.set()
+        Preferences.canvasColor.nsColor.set()
         bPath.fill()
-
-     }
+    }
     
     override func animateOneFrame() {
         window!.disableFlushing()
         
         window!.enableFlushing()
     }
-    
-
-    
 }
     
 
