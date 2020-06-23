@@ -8,7 +8,7 @@ Please note that according to Apple, Swift screen savers are only officially sup
 
 The template includes two targets, one that creates a usable `.saver`, and a test target that lets you quickly develop your screen saver without installing. 
 
-# About Catalina, Big Sur, .plugin and .appex
+## About Catalina, Big Sur, .plugin and .appex
 
 Starting with Catalina, the screen saver API is (in some aspects) deprecated, using the old (unsafe) plugin format. Most first party Apple screen savers are using a new App Extension format that, as of writing this, does not seem to be available yet to 3rd parties. 
 
