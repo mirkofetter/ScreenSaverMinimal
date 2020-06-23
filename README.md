@@ -37,3 +37,5 @@ com.apple.security.temporary-exception.yasb
 ```
 
 Couple of examples of things you can't do, override the keyboard or read files outside of the system disk. 
+
+Also note that you must sign and notarize your screen saver in order to be able to distribute it to other users. 
