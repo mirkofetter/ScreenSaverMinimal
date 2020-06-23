@@ -5,6 +5,8 @@
 //  Created by Mirko Fetter on 28.10.16.
 //
 //  Based on https://github.com/erikdoe/swift-circle
+//
+//  Updated for Swift 5 / Catalina / Big Sur by Guillaume Louel 23/06/20
 
 
 import Cocoa
@@ -29,8 +31,7 @@ class ConfigureSheetController : NSObject {
     }
    
     @IBAction func closeConfigureSheet(_ sender: AnyObject) {
-        NSColorPanel.shared().close()
+        NSColorPanel.shared.close()
         NSApp.endSheet(window!)
     }
-
 }

@@ -24,11 +24,11 @@ class ScreenSaverMinimalView : ScreenSaverView {
     }
     
     
-    override func hasConfigureSheet() -> Bool {
+    override var hasConfigureSheet: Bool {
         return true
     }
     
-    override func configureSheet() -> NSWindow? {
+    override var configureSheet: NSWindow? {
         return sheetController.window
     }
 
