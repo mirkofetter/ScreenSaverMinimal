@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		034D858C1B64DF4D00D2EF6B /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034D858B1B64DF4D00D2EF6B /* ConfigureSheet.xib */; };
 		034D85901B64F0AD00D2EF6B /* ConfigureSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D858F1B64F0AD00D2EF6B /* ConfigureSheetController.swift */; };
 		03A485271B644187008A2D6A /* ScreenSaverMinimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A485261B644187008A2D6A /* ScreenSaverMinimalView.swift */; };
+		03D29C0F24A262B400D61A02 /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D29C1224A262B400D61A02 /* ConfigureSheet.xib */; };
+		03D29C1024A262B400D61A02 /* ConfigureSheet.xib in Sources */ = {isa = PBXBuildFile; fileRef = 03D29C1224A262B400D61A02 /* ConfigureSheet.xib */; };
 		03F3BD4324A2462600F7CD7A /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3BD4224A2462500F7CD7A /* Preferences.swift */; };
 		03F3BD4424A2462600F7CD7A /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F3BD4224A2462500F7CD7A /* Preferences.swift */; };
 		03F9545E1B695E0A00E47ED7 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F9545D1B695E0A00E47ED7 /* thumbnail.png */; };
@@ -18,15 +19,15 @@
 		ACD891891DC38B790019C16F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACD891871DC38B790019C16F /* MainMenu.xib */; };
 		ACD8918E1DC38C4B0019C16F /* ScreenSaverMinimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A485261B644187008A2D6A /* ScreenSaverMinimalView.swift */; };
 		ACD8918F1DC38C4B0019C16F /* ConfigureSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D858F1B64F0AD00D2EF6B /* ConfigureSheetController.swift */; };
-		ACD891901DC38C4B0019C16F /* ConfigureSheet.xib in Sources */ = {isa = PBXBuildFile; fileRef = 034D858B1B64DF4D00D2EF6B /* ConfigureSheet.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		034D858B1B64DF4D00D2EF6B /* ConfigureSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
 		034D858F1B64F0AD00D2EF6B /* ConfigureSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureSheetController.swift; sourceTree = "<group>"; };
 		03A485181B644145008A2D6A /* ScreenSaverMinimal.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenSaverMinimal.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A4851C1B644145008A2D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03A485261B644187008A2D6A /* ScreenSaverMinimalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenSaverMinimalView.swift; sourceTree = "<group>"; };
+		03D29C1124A262B400D61A02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ConfigureSheet.xib; sourceTree = "<group>"; };
+		03D29C1324A2632900D61A02 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/ConfigureSheet.xib; sourceTree = "<group>"; };
 		03F3BD4224A2462500F7CD7A /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		03F9545D1B695E0A00E47ED7 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		ACD891811DC38B790019C16F /* SaverTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaverTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,7 +79,7 @@
 				03F3BD4224A2462500F7CD7A /* Preferences.swift */,
 				03A485261B644187008A2D6A /* ScreenSaverMinimalView.swift */,
 				034D858F1B64F0AD00D2EF6B /* ConfigureSheetController.swift */,
-				034D858B1B64DF4D00D2EF6B /* ConfigureSheet.xib */,
+				03D29C1224A262B400D61A02 /* ConfigureSheet.xib */,
 				03A4851B1B644145008A2D6A /* Supporting Files */,
 			);
 			path = ScreenSaverMinimal;
@@ -179,6 +180,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 03A4850E1B644145008A2D6A;
 			productRefGroup = 03A485191B644145008A2D6A /* Products */;
@@ -196,7 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				034D858C1B64DF4D00D2EF6B /* ConfigureSheet.xib in Resources */,
+				03D29C0F24A262B400D61A02 /* ConfigureSheet.xib in Resources */,
 				03F9545E1B695E0A00E47ED7 /* thumbnail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,7 +232,7 @@
 				ACD8918E1DC38C4B0019C16F /* ScreenSaverMinimalView.swift in Sources */,
 				ACD8918F1DC38C4B0019C16F /* ConfigureSheetController.swift in Sources */,
 				03F3BD4424A2462600F7CD7A /* Preferences.swift in Sources */,
-				ACD891901DC38C4B0019C16F /* ConfigureSheet.xib in Sources */,
+				03D29C1024A262B400D61A02 /* ConfigureSheet.xib in Sources */,
 				ACD891841DC38B790019C16F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +240,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		03D29C1224A262B400D61A02 /* ConfigureSheet.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D29C1124A262B400D61A02 /* en */,
+				03D29C1324A2632900D61A02 /* fr */,
+			);
+			name = ConfigureSheet.xib;
+			sourceTree = "<group>";
+		};
 		ACD891871DC38B790019C16F /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -253,6 +264,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "Accent Color";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -307,6 +320,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "Accent Color";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
