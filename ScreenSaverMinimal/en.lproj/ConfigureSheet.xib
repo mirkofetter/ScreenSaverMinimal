@@ -58,10 +58,11 @@
                         </connections>
                     </button>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pr7-fa-iXE">
-                        <rect key="frame" x="18" y="148" width="195" height="73"/>
+                        <rect key="frame" x="18" y="148" width="248" height="73"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" selectable="YES" title="If you set your locale to french, you should see &quot;Fond d'écran&quot; above instead of &quot;Background&quot;, radar #FB7588762" id="2hl-ZC-gRq">
+                        <textFieldCell key="cell" selectable="YES" id="2hl-ZC-gRq">
                             <font key="font" metaFont="system"/>
+                            <string key="title">If you set your locale to french, you should see "Fond d'écran" above instead of "Background", radar #FB7588762 (fixed in Big Sur)</string>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -74,6 +75,15 @@
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ybB-U7-rB7">
+                        <rect key="frame" x="12" y="102" width="173" height="16"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="TintColor should be purple :" id="ti1-7f-j1S">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fdL-Aj-OPg">
                         <rect key="frame" x="184" y="93" width="87" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -82,10 +92,10 @@
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ybB-U7-rB7">
-                        <rect key="frame" x="12" y="102" width="173" height="16"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pmn-fb-Ur2">
+                        <rect key="frame" x="12" y="84" width="125" height="16"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" lineBreakMode="clipping" title="TintColor should be purple :" id="ti1-7f-j1S">
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="Radar# FB8048049" id="pfg-dx-a5x">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
