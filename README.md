@@ -2,11 +2,15 @@
 
 Template to create a macOS screen saver using Swift 5 (forked from https://github.com/mirkofetter/ScreenSaverMinimal with some code taken from Aerial https://github.com/JohnCoates/Aerial).
 
-This project can be used as a starting point to create a macOS screen saver using Swift, as, as of Xcode 12 beta1, Apple only provides a template in Xcode for Objective-C screen savers. 
+This project can be used as a starting point to create a macOS screen saver using Swift, as, as of Xcode 14 beta, Apple only provides a template for Objective-C screen savers. 
 
 Please note that according to Apple, Swift screen savers are only officially supported as of macOS 14.6. There are **many** issues using Swift for screensavers on previous macOS versions (as an example, textfields won't work on High Sierra) so while you can support older versions, be aware there are many pitfalls. 
 
 The template includes two targets, one that creates a usable `.saver`, and a test target that lets you quickly develop your screen saver without installing. 
+
+## About Ventura
+
+See here for a list of known issues with macOS Ventura, they relate mostly to the new System Settings app : [Ventura screen saver bugs on wiki](https://github.com/AerialScreensaver/ScreenSaverMinimal/wiki/Issues-with-macOS-Ventura-betas).
 
 ## About Catalina, Big Sur, .plugin and .appex
 
